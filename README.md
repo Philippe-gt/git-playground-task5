@@ -31,3 +31,5 @@ The conflict in `notes.js` was on the `add` command's confirmation message. Merg
 - **feature-a:** ``console.log(`Added note #${note.id}: ${note.text} — ${store.all().length} notes total`);`` (adds the running total)
 - **feature-b:** ``console.log(`Saved note #${note.id}: "${note.text}"`);`` (says "Saved" and quotes the note text)
 - **Resolved:** ``console.log(`Saved note #${note.id}: "${note.text}" — ${store.all().length} notes total`);`` (keeps both changes)
+
+This PR demonstrates the completed feature-a + feature-b merge workflow required by the lesson.
